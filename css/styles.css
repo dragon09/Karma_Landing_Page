@@ -1,7 +1,6 @@
 html {
 /*changes hover color when cursed over*/
 box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
 }
 
 *, *:before, *:after {
@@ -15,6 +14,15 @@ body {
 /*div {
   border: 1px solid Chocolate;
 }*/
+
+.content {
+  /*font selected*/
+  font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
 
 .top-navigation {
   background-color: #fff;
@@ -51,4 +59,42 @@ top-navigation .logo {
 .top-navigation .links li:hover {
   cursor: pointer;
   color: #333333;
+}
+
+.introduction {
+  background-image: url(img/first-background copy.jpg);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  text-align: center;
+}
+
+.introduction h1 {
+  margin-top: 17.5;
+  font-size: 3.125rem;
+  display: block;
+}
+
+
+.introduction h1, h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: #F26130;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    width: 175px;
+}
+
+:hover button{
+     color: #333333;;
 }
