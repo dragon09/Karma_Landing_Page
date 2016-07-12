@@ -26,6 +26,9 @@ body {
 
 .top-navigation {
   background-color: #fff;
+  width: 100%;
+  /*position: fixed;*/
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -73,15 +76,19 @@ top-navigation .logo {
 .introduction h1 {
   margin-top: 17.5;
   font-size: 3.125rem;
-  display: block;
-}
-
-
-.introduction h1, h3 {
+  /*padding: 570px 50px;*/
   color: #fff;
   text-align: center;
   font-weight: 300;
+
 }
+
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+    /*padding: 570px 25px;*/
+}
+
 
 button {
     text-shadow: none;
@@ -95,6 +102,105 @@ button {
     width: 175px;
 }
 
-:hover button{
+:hover button {
      color: #333333;;
+}
+
+/*h1, h3, h2 {
+  top: 300px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}*/
+
+button {
+  text-align: center;
+  width: 12%;
+  position: absolute;
+}
+
+.cases {
+  /*color: black;*/
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  display: inline-block;
+}
+
+.cases .content {
+  color: black;
+  text-align: center;
+}
+
+.cases .devices {
+    width: 127px;
+    height: 127px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    display: block;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    display: inline-block;
+}
+
+.social .icons > li {
+  display: inline-block;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid lightgray;
+  padding: 0.625rem 0;
+  /*separates items*/
+  margin: 1.25rem 5px;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+.social .content {
+  background: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+  color: #59A5D4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social .facebook {
+  color: #4c66a4
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+h5 {
+  color: black;
+  display: block;
+  text-align: center;
 }
