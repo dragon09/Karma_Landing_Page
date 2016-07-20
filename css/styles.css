@@ -7,9 +7,9 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-body {
+/*body {
   background-color: LightGray;
-}
+}*/
 
 /*div {
   border: 1px solid Chocolate;
@@ -20,27 +20,38 @@ body {
   font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
     -webkit-font-smoothing: antialiased;
 }
 
-.top-navigation {
-  background-color: #fff;
-  width: 100%;
-  /*position: fixed;*/
-  z-index: 9999;
+top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    display: block;
 }
 
 .top-navigation > .content {
+    height: 4.375rem
+}
+
+.top-navigation > .content .links {
   width: 970px;
   height: 70px;
   margin: 0 auto;
   padding: 0px 15px;
+  float: right;
 }
 
 top-navigation .logo {
-  height: 70px;
-  margin-top: auto;
+  height: 4.375rem;
+  /*height: 70px;*/
+  margin-top: right;
 }
 
 .top-navigation > .links {
@@ -65,30 +76,26 @@ top-navigation .logo {
 }
 
 .introduction {
-  background-image: url(img/first-background copy.jpg);
+  background-image: url("/Users/user/code/karma_landing_page/img/first-background.jpg");
   background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
-  text-align: center;
 }
 
 .introduction h1 {
-  margin-top: 17.5;
-  font-size: 3.125rem;
-  /*padding: 570px 50px;*/
-  color: #fff;
   text-align: center;
-  font-weight: 300;
-
+  display: block;
+  /*margin-top: 17.5rem;*/
+font-size: 3.125rem;
+  font-size: 3.125rem;
+  color: #fff;
 }
 
 .introduction h3 {
-    margin-top: 1.25rem;
-    font-size: 1.563rem;
-    /*padding: 570px 25px;*/
+  text-align: center;
+  color: #fff;
 }
-
 
 button {
     text-shadow: none;
@@ -96,10 +103,13 @@ button {
     border-radius: 4px;
     padding: 1rem 1.5rem;
     background-color: #F26130;
+    border-color: #f15a29;
     font-size: 16px;
     color: #fff;
-    margin: 0 auto;
-    width: 175px;
+    /*margin: 0 auto;*/
+    /*width: 175px;*/
+    width: 9.688rem;
+    display: inline-block;
 }
 
 :hover button {
@@ -129,32 +139,34 @@ button {
 }
 
 .cases .content {
+  margin-top: 7.875rem;
   color: black;
   text-align: center;
 }
 
-.cases .devices {
-    width: 127px;
-    height: 127px;
+.cases .devices > li {
+    width: 20rem;
+    height: 20rem;
     display: inline-block;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     box-sizing: border-box;
-    margin-left: 25px;
+    /*margin-left: 25px;*/
+    float: left;
 }
 
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-    display: block;
 }
 
 .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
-    display: inline-block;
+    /*display: inline-block;*/
 }
+
 
 .social .icons > li {
   display: inline-block;
