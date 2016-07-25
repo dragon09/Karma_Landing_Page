@@ -20,7 +20,8 @@ box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
-    /*margin-top: 25px;*/
+    /*margin-top: 25px;*/*/
+    display: block;*/
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
@@ -81,35 +82,40 @@ top-navigation .logo {
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
+  overflow: auto;
 }
 
 .introduction h1 {
   text-align: center;
   display: block;
-  /*margin-top: 17.5rem;*/
-font-size: 3.125rem;
+  margin-top: 17.5rem;
   font-size: 3.125rem;
+  font-weight: 300;
   color: #fff;
 }
 
 .introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+  font-weight: 300;
   text-align: center;
   color: #fff;
+  display: block;
 }
 
 button {
+    width: 9.688rem;
+    background-color: #F26130;
+    border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    background-color: #F26130;
-    border-color: #f15a29;
     font-size: 16px;
     color: #fff;
     /*margin: 0 auto;*/
     /*width: 175px;*/
-    width: 9.688rem;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 :hover button {
@@ -123,10 +129,17 @@ button {
   position: absolute;
 }*/
 
-button {
+/*button {
   text-align: center;
   width: 12%;
   position: absolute;
+}*/
+
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+    display: block;
 }
 
 .cases {
@@ -135,12 +148,12 @@ button {
   background-color: #fff;
   overflow: hidden;
   padding-bottom: 5rem;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .cases .content {
   margin-top: 7.875rem;
-  color: black;
+  color: #1D1E21;
   text-align: center;
 }
 
@@ -158,6 +171,7 @@ button {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
+    display: block;
 }
 
 .cases .devices h3 {
