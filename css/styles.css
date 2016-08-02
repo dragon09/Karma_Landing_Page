@@ -163,7 +163,7 @@ button {
     display: inline-block;
     /*border: 1px solid black;*/
     box-sizing: border-box;
-    /*margin-left: 25px;*/
+    margin-left: 60px;
     float: left;
 }
 
@@ -191,6 +191,7 @@ button {
   padding: 0.625rem 0;
   /*separates items*/
   margin: 1.25rem 5px;
+
 }
 
 .social hr {
