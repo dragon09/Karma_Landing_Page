@@ -7,9 +7,11 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-/*body {
-  background-color: LightGray;
-}*/
+body {
+  /*background-color: LightGray;*/
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
 /*div {
   border: 1px solid Chocolate;
@@ -17,58 +19,76 @@ box-sizing: border-box;
 
 .content {
   /*font selected*/
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
     color: #838994;
     font-size: 16px;
-    /*margin-top: 25px;*/*/
+    /*margin-top: 25px;*/
     display: block;*/
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
-    -webkit-font-smoothing: antialiased;
 }
 
-top-navigation {
+
+.top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
+    /*margin-top: 2em;*/
     border-bottom: 1px solid #DDD;
     z-index: 9999;
-    display: block;
+    /*display: block;*/
 }
 
 .top-navigation > .content {
     height: 4.375rem
+    /*height: 70px;*/
+    /*margin: 0 auto;*/
+    /*width: 970px;*/
 }
 
-.top-navigation > .content .links {
-  width: 970px;
-  height: 70px;
-  margin: 0 auto;
-  padding: 0px 15px;
-  float: right;
-}
-
-top-navigation .logo {
+.top-navigation .logo {
   height: 4.375rem;
   /*height: 70px;*/
   margin-top: right;
 }
 
-.top-navigation > .links {
+.top-navigation .links {
   float:right;
+  padding-right: 275px;
+  padding-left: 325px;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+  position: fixed;
 }
+
+/*.top-navigation > .content .links {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  float: right;
+  margin-top: 1.7rem;
+  padding: 0px 15px;
+  color: #838994;
+  font-size: 1.04rem;
+}*/
 
 .top-navigation .links li {
   display: inline-block;
   /*separates items*/
-  margin-left: 25px;
+  margin-left: 1.563rem;
 }
 
-.top-navigation .links > .active {
+.top-navigation .links  li.active {
   color: #4c5058;
   font-weight: 500;
 }
+
+/*.top-navigation .links  li.active {
+  color: #4c5058;
+  font-weight: 500;
+}*/
 
 /*hover and change color of links*/
 .top-navigation .links li:hover {
@@ -155,6 +175,7 @@ button {
   margin-top: 7.875rem;
   color: #1D1E21;
   text-align: center;
+  /*margin-left: 100px;*/
 }
 
 .cases .devices > li {
@@ -163,7 +184,7 @@ button {
     display: inline-block;
     /*border: 1px solid black;*/
     box-sizing: border-box;
-    margin-left: 60px;
+    margin-left: 70px;
     float: left;
 }
 
@@ -181,7 +202,6 @@ button {
     /*display: inline-block;*/
 }
 
-
 .social .icons > li {
   display: inline-block;
   border-radius: 1.25rem;
@@ -191,7 +211,6 @@ button {
   padding: 0.625rem 0;
   /*separates items*/
   margin: 1.25rem 5px;
-
 }
 
 .social hr {
